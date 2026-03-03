@@ -1,0 +1,6 @@
+No primeiro pdf é apresentado como se adiciona comentários nos códigos e nos apresenta a biblioteca principal para entradas e saídas(scanf e printf).
+Toda variável tem que ser inicializada ja identificando o tipo dela (int x  = 0).
+No printf, se for preciso imprimir uma variável, é preciso especificar o tipo dela, todas vindas de um %, i para inteiros, f para float, lf para double, c para char(apenas um caractere), s para string, u para um valor sem sinal,
+x para hexadecimal, p para o endereço da memoria de um ponteiro. Ex: printf("Volume=%d",v) -> Volume=123 preciso mostrar qual o tipo de variavel, depois, qual a variável que queremos printar
+A lógica do scanf é parecida, porém, diferentemente do pyhton, precisamos inicializar as variaveis que vamos pedir os valores. Ex: scanf("%f", A) aqui vamos pedir o valor da variável A que será um float
+E também é apresentado os lógicos condicionais o if e else, que funcionam em c igual ao python. Ex: if(x == 3): printf("%s", "é 3!") else: print("%s", "não é 3 :(") 
